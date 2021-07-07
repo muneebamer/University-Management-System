@@ -1,0 +1,149 @@
+
+h1{color: #6293C2;}
+
+body{
+  font-family: Arial ,fontAwesome;
+}
+
+.navbar {border-radius: 0; z-index: 10}
+.nav {padding-right: 30px;}
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 100px;
+
+}
+.close{
+  margin-top: -20px !important;
+}
+
+
+.sidebar a {
+  padding: 25px 8px 6px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #C1C1C1;
+}
+.active{color:white !important;}
+
+.profile_box{
+  
+  width: 400px;
+  padding: 0px;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  box-shadow: 0 10px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.profile_txt{
+  padding: 0px 20px;
+  margin-bottom: 5px;
+  font-size: 17px !important;
+}
+.image{
+  padding: 0px;
+  background-color: black;
+
+}
+
+.complaints{
+  width:83.5%;
+  padding: 0px;
+  margin-left: 65px;
+  margin-bottom: 80px;
+  border: solid 1px #AEAEAE;
+  border-radius: 10px;
+  box-shadow: 0 10px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.complaints_txt h1{
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.addCourses{
+  width:90%;
+  padding: 0px;
+  margin-left: 50px;
+  margin-bottom: 80px;
+  border: solid 1px #AEAEAE;
+  border-radius: 10px;
+  box-shadow: 0 10px 8px 0px rgba(0, 0, 0, 0.2);
+
+}
+.addCourses h1{
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.icons {margin-right: 15px; color: #BCFE92;}
+.icon_tchr{margin-right: 15px; color: #3B3B3B;}
+.icon_reg{margin-right: 15px;}
+
+.complaint_err{
+  margin: 30px 50px !important;
+  padding: 20px 25px;
+  font-size: 15px;
+}
+table {border : hidden !important;}
+table tr th {padding: 10px 20px !important;}
+table tr td {
+  padding-left: 20px !important;
+}
+
+.complaints_txt {
+  padding: 3px 0px;
+  border-radius: 10px 10px 0 0 ;
+  background-color: #AD5CFE;
+}
+
+.complaints_txt2{
+  padding: 3px 0px;
+  border-radius: 10px 10px 0 0 ;
+  background-color: #FFC132;;
+
+}
+.complaints_txt2 h1{
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#add_btn {
+  float: right;
+  margin-top: -43px;
+  margin-right: 10px;
+}
+.add{
+  padding: 7px 20px !important;
+}
+.w_btn {
+  padding: 3px 50px !important;
+  
+}
+.updated{
+   width:82.5% !important;
+   margin-left: 68px;
+}
+/*Scrollbar for table*/
+
+.custom-scrollbar {
+position: relative;
+height: 200px;
+overflow: auto;
+}
+.table-wrapper-scroll-y {
+display: block;
+}

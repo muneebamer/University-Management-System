@@ -1,0 +1,94 @@
+
+body{
+  font-family: Arial ,fontAwesome;
+}
+
+.navbar {border-radius: 0; z-index: 10}
+.nav {padding-right: 30px;}
+.sidebar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 100px;
+
+}
+.close{
+  margin-top: -20px !important;
+}
+
+
+.sidebar a {
+  padding: 25px 8px 6px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #C1C1C1;
+}
+.active{color:white !important;}
+
+.complaints{
+  width:70%;
+  padding: 0px;
+  margin-left: 305px;
+  margin-bottom: 80px;
+  border: solid 1px #AEAEAE;
+  border-radius: 10px;
+  box-shadow: 0 10px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.complaints_txt {
+  padding: 3px 0px;
+  border-radius: 10px 10px 0 0 ;
+  background-color: #AD5CFE;
+}
+
+.complaints_txt2{
+  padding: 3px 0px;
+  border-radius: 10px 10px 0 0 ;
+  background-color: #FFC132;;
+
+}
+.complaints_txt2 h1{
+  color: white;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#add_btn {
+  float: right;
+  margin-top: -43px;
+  margin-right: 10px;
+}
+.add{
+  padding: 7px 20px !important;
+}
+
+.updated{
+   width:82.5% !important;
+   margin-left: 210px;
+}
+
+.profile_box{
+  
+  width: 400px;
+  padding: 0px;
+  text-align: center;
+  margin-left: 30%;
+  margin-top: 10px;
+  margin-bottom: 70px;
+  border-radius: 10px;
+  box-shadow: 0 10px 8px 0px rgba(0, 0, 0, 0.2);
+}
+.image{
+  padding: 0px;
+  background-color: black;
+
+}
